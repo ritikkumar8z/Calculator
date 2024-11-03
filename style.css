@@ -1,0 +1,161 @@
+:root {
+  --background: #f6f6f6;
+  --font: #222;
+  --border: #333;
+  --screen: #eee;
+  --calculator: #aaa;
+  --btn: #eee;
+  --btn-hover: #ddd;
+  --btn-active: #ccc;
+  --btn-red: #faa;
+  --btn-red-hover: #e99;
+  --btn-red-active: #d88;
+  --btn-blue: #aaf;
+  --btn-blue-hover: #99e;
+  --btn-blue-active: #88d;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  background-color: black;
+  color: var(--font);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin-bottom: 100px;
+}
+
+button {
+  border: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75vh;
+  min-height: 500px;
+  padding: 10px;
+  margin-top: 50px;
+}
+
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  border: 2px var(--border) solid;
+  border-radius: 15px;
+  padding: 20px;
+  background-color: var(--calculator);
+}
+
+.screen {
+  padding: 10px 20px;
+  border: 2px var(--border) solid;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  background-color: var(--screen);
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
+  
+}
+
+.screen-last {
+  min-height: 32px;
+  font-size: 20px;
+}
+
+.screen-current {
+  min-height: 60px;
+  font-size: 40px;
+}
+
+.buttons-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 10px;
+  color:blue;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.btn {
+  padding: 20px;
+  border: 2px var(--border) solid;
+  border-radius: 5px;
+  background-color: var(--btn);
+  font-size: 20px;
+}
+
+.btn:hover {
+  background-color: gray
+}
+
+.btn:active {
+  background-color: black;
+}
+
+.btn-red {
+  background-color: rgb(255, 119, 0);
+}
+
+.btn-red:hover {
+  background-color: red;
+}
+
+.btn-red:active {
+  background-color: rgb(20, 2, 2);
+}
+
+.btn-blue {
+  background-color: var(--btn-blue);
+}
+
+.btn-blue:hover {
+  background-color: var(--btn-blue-hover);
+}
+
+.btn-blue:active {
+  background-color: rgb(202, 125, 0);
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .buttons-grid {
+      grid-template-columns: repeat(4, 1fr);
+  }
+
+  .span-2 {
+      grid-column: span 2;
+  }
+}
+
+@media (max-width: 400px) {
+  .buttons-grid {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  .span-2 {
+      grid-column: span 3;
+  }
+}
