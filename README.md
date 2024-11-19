@@ -24,7 +24,7 @@ JavaScript: Implements functionality and event handling.
 ├── style.css        # Styles for the calculator
 └── script.js        # JavaScript logic for operations
 
-
+ 
 # 🚀 Usage
 Clone the Repository
 
