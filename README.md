@@ -4,7 +4,7 @@ and division, making it a useful tool for quick calculations in the browser!
  
 # 🌐 Demo 
  
-# 🎨 Features
+# 🎨 Features 
 User-Friendly Interface: A clean, responsive design.
 Basic Arithmetic Operations: Supports addition (+), subtraction (-), multiplication (*), and division (/).
 Clear Button: Reset the screen for new calculations.
