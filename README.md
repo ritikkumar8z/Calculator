@@ -27,7 +27,7 @@ JavaScript: Implements functionality and event handling.
  
 # 🚀 Usage
 Clone the Repository
-
+ 
 
 git clone https://github.com/ritikkumar8z/calculator.git
 Open the HTML File Open index.html in your browser to use the calculator.
