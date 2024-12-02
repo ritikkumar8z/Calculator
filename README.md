@@ -3,7 +3,7 @@ This is a Simple Calculator built with JavaScript, HTML, and CSS. The calculator
 and division, making it a useful tool for quick calculations in the browser! 
   
 # 🌐 Demo    
- 
+  
 # 🎨 Features 
 User-Friendly Interface: A clean, responsive design.
 Basic Arithmetic Operations: Supports addition (+), subtraction (-), multiplication (*), and division (/).
