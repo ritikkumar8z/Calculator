@@ -8,7 +8,7 @@ and division, making it a useful tool for quick calculations in the browser!
 User-Friendly Interface: A clean, responsive design.
 Basic Arithmetic Operations: Supports addition (+), subtraction (-), multiplication (*), and division (/).
 Clear Button: Reset the screen for new calculations.
-Real-Time Calculation: Results display immediately upon pressing "=".
+Real-Time Calculation: Results display immediately upon pressing "=". 
 Error Handling: Displays messages for invalid inputs like division by zero.
 
 
