@@ -1,6 +1,6 @@
 # 🧮 Simple Calculator
 This is a Simple Calculator built with JavaScript, HTML, and CSS. The calculator can perform basic arithmetic operations like addition, subtraction, multiplication, 
-and division, making it a useful tool for quick calculations in the browser!
+and division, making it a useful tool for quick calculations in the browser! 
   
 # 🌐 Demo    
  
